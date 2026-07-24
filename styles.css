@@ -64,16 +64,14 @@ img { max-width: 100%; }
 }
 .profile { position: sticky; top: 108px; text-align: center; }
 .portrait {
-    width: 184px;
-    height: 184px;
-
-    border-radius: 50%;
-    object-fit: cover;
-
-    display: block;
-    margin: 0 auto 28px;
-
-    box-shadow: var(--shadow);
+  display: block;
+  width: 100%;
+  max-width: 260px;
+  height: auto;
+  margin: 0 auto 28px;
+  border-radius: 0;
+  object-fit: contain;
+  box-shadow: none;
 }
 .profile h1 { font: 600 2rem/1.15 "Source Serif 4", serif; margin: 0; }
 .profile-role { color: var(--muted); margin: 16px 0 8px; line-height: 1.55; }
