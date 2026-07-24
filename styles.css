@@ -64,10 +64,16 @@ img { max-width: 100%; }
 }
 .profile { position: sticky; top: 108px; text-align: center; }
 .portrait {
-  width: 184px; aspect-ratio: 1; margin: 0 auto 28px; border-radius: 50%;
-  display: grid; place-items: center; font: 700 3rem/1 Inter;
-  background: linear-gradient(145deg, #d8e8f6, #8cb8d9);
-  color: #11314d; box-shadow: var(--shadow);
+    width: 184px;
+    height: 184px;
+
+    border-radius: 50%;
+    object-fit: cover;
+
+    display: block;
+    margin: 0 auto 28px;
+
+    box-shadow: var(--shadow);
 }
 .profile h1 { font: 600 2rem/1.15 "Source Serif 4", serif; margin: 0; }
 .profile-role { color: var(--muted); margin: 16px 0 8px; line-height: 1.55; }
