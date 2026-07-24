@@ -92,7 +92,7 @@ img { max-width: 100%; }
 .hero-content > p { max-width: 760px; }
 .hero-content p:not(.kicker) { color: var(--muted); }
 .metrics {
-  display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px;
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px;
   margin-top: 42px; border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden;
   background: var(--line);
 }
