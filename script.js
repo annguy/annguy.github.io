@@ -1,16 +1,32 @@
-document.getElementById('year').textContent = new Date().getFullYear();
-const toggle = document.querySelector('.nav-toggle');
-const links = document.querySelector('.nav-links');
-toggle.addEventListener('click', () => {
-  const open = links.classList.toggle('open');
-  toggle.setAttribute('aria-expanded', open);
+const root = document.documentElement;
+const themeButton = document.querySelector(".theme-toggle");
+const savedTheme = localStorage.getItem("theme");
+
+if (savedTheme) {
+  root.dataset.theme = savedTheme;
+} else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+  root.dataset.theme = "dark";
+}
+
+themeButton?.addEventListener("click", () => {
+  const next = root.dataset.theme === "dark" ? "light" : "dark";
+  root.dataset.theme = next;
+  localStorage.setItem("theme", next);
 });
-document.querySelectorAll('.nav-links a').forEach(a => a.addEventListener('click', () => links.classList.remove('open')));
-document.querySelectorAll('[data-placeholder]').forEach(link => {
-  link.addEventListener('click', event => {
-    if (link.getAttribute('href') === '#') {
-      event.preventDefault();
-      alert(`Add your ${link.dataset.placeholder} URL in index.html.`);
-    }
+
+const navToggle = document.querySelector(".nav-toggle");
+const navLinks = document.querySelector(".nav-links");
+
+navToggle?.addEventListener("click", () => {
+  const open = navLinks.classList.toggle("open");
+  navToggle.setAttribute("aria-expanded", String(open));
+});
+
+navLinks?.querySelectorAll("a").forEach(link => {
+  link.addEventListener("click", () => {
+    navLinks.classList.remove("open");
+    navToggle?.setAttribute("aria-expanded", "false");
   });
 });
+
+document.getElementById("year").textContent = new Date().getFullYear();

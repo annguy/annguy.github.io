@@ -1,20 +1,23 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="An Nguyen — AI technical leader, machine learning researcher, and freelance AI engineer." />
-  <title>An Nguyen | AI & Machine Learning</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="An Nguyen — AI technical leader, machine learning researcher, and AI engineer working on trustworthy enterprise and healthcare AI.">
+  <meta name="theme-color" content="#111827">
+  <title>An Nguyen | AI, Machine Learning & Healthcare</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
   <header class="site-header">
-    <nav class="nav container" aria-label="Primary navigation">
-      <a class="brand" href="#top">An Nguyen</a>
-      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="nav shell" aria-label="Primary navigation">
+      <a class="brand" href="#top">AN</a>
+      <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false">Menu</button>
       <div class="nav-links">
         <a href="#about">About</a>
         <a href="#experience">Experience</a>
@@ -22,135 +25,252 @@
         <a href="#publications">Publications</a>
         <a href="#leadership">Leadership</a>
         <a href="#contact">Contact</a>
+        <button class="theme-toggle" type="button" aria-label="Toggle dark mode">◐</button>
       </div>
     </nav>
   </header>
 
-  <main id="top">
-    <section class="hero container">
-      <aside class="profile-card">
-        <div class="avatar" aria-label="Initials AN">AN</div>
+  <main id="main">
+    <section class="hero shell" id="top">
+      <aside class="profile">
+        <div class="portrait" aria-hidden="true">AN</div>
         <h1>An Nguyen, Dr.-Ing.</h1>
-        <p class="role">AI Technical Leader · Machine Learning Researcher · AI Engineer</p>
-        <p class="location">Berlin, Germany</p>
-        <div class="profile-links">
+        <p class="profile-role">AI Technical Leader<br>Machine Learning Researcher<br>AI Engineer</p>
+        <p class="profile-meta">Berlin, Germany</p>
+
+        <div class="social-links">
           <a href="mailto:an.nguyen@live.de">Email</a>
-          <a href="https://www.linkedin.com/in/an-nguyen-44b7b0b4/" data-placeholder="LinkedIn">LinkedIn</a>
-          <a href="https://github.com/annguy" data-placeholder="GitHub">GitHub</a>
-          <a href="https://scholar.google.com/citations?hl=en&user=c9iG6RUAAAAJ" data-placeholder="Google Scholar">Google Scholar</a>
-          <a href="An_Nguyen_resume_July_2026.pdf">Resume</a>
+          <a href="https://www.linkedin.com/in/an-nguyen-44b7b0b4/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="https://github.com/annguy" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://scholar.google.com/citations?hl=en&user=c9iG6RUAAAAJ" target="_blank" rel="noreferrer">Google Scholar</a>
+          <a href="An_Nguyen_resume_July_2026.pdf" target="_blank">Resume</a>
         </div>
       </aside>
 
-      <div class="hero-copy" id="about">
-        <p class="eyebrow">AI & Digital Assistants at Siemens Healthineers</p>
+      <div class="hero-content" id="about">
+        <p class="kicker">AI & Digital Assistants · Siemens Healthineers</p>
         <h2>Building trustworthy AI systems for healthcare and enterprise applications.</h2>
-        <p>
-          I am an AI technical leader with more than eight years of professional machine-learning experience across industry and academia, and more than ten years when research appointments during graduate studies are included.
+        <p class="lead">
+          I lead AI strategy, architecture, governance, and enterprise adoption for AI & Digital Assistants
+          within Siemens Healthineers Customer Services.
         </p>
         <p>
-          At Siemens Healthineers, I lead the AI & Digital Assistants focus topic for Customer Services. My work spans AI strategy, enterprise architecture, governance, product ownership, and delivery of agentic AI, large language model, multimodal AI, knowledge-graph, and digital-assistant solutions.
+          My work spans agentic AI, large language models, retrieval-augmented generation, multimodal AI,
+          ontologies, knowledge graphs, and production AI platforms across Azure, Databricks, and on-premises
+          environments. I combine technical leadership and product ownership with hands-on machine-learning
+          engineering.
         </p>
         <p>
-          I also maintain an active research profile at Friedrich-Alexander-Universität Erlangen-Nürnberg and work hands-on as a freelance AI engineer. My interests include responsible and explainable AI, probabilistic machine learning, healthcare AI, enterprise knowledge systems, and production-grade AI platforms.
+          Alongside my industry role, I am a postdoctoral researcher at Friedrich-Alexander-Universität
+          Erlangen-Nürnberg and a freelance AI engineer. My research interests include robust and explainable
+          machine learning, probabilistic modelling, time-series analysis, clinical AI, and responsible AI.
         </p>
-        <div class="highlights">
-          <div><strong>8+ years</strong><span>Professional AI/ML experience</span></div>
-          <div><strong>13</strong><span>Peer-reviewed publications</span></div>
-          <div><strong>300+</strong><span>Community members</span></div>
+
+        <div class="metrics" aria-label="Career highlights">
+          <div><strong>8+</strong><span>years professional AI/ML</span></div>
+          <div><strong>13</strong><span>peer-reviewed publications</span></div>
+          <div><strong>1</strong><span>U.S. patent</span></div>
+          <div><strong>300+</strong><span>community members</span></div>
+        </div>
+
+        <div class="hero-actions">
+          <a class="button primary" href="#experience">View experience</a>
+          <a class="button secondary" href="An_Nguyen_resume_July_2026.pdf" target="_blank">Download resume</a>
         </div>
       </div>
     </section>
 
-    <section class="section muted" id="experience">
-      <div class="container narrow">
-        <p class="eyebrow">Experience</p>
+    <section class="section tone" id="experience">
+      <div class="shell content-width">
+        <p class="kicker">Experience</p>
         <h2>Industry, product, and technical leadership</h2>
+
         <div class="timeline">
-          <article>
-            <div class="timeline-meta">Jun 2024 — Present</div>
-            <div><h3>Digital Focus Topic Lead — AI & Digital Assistants</h3><p class="org">Siemens Healthineers</p><p>Lead AI strategy, architecture, roadmap, governance, and enterprise adoption for Customer Services. Guide cross-functional teams delivering agentic AI, LLM, multimodal, semantic, and digital-assistant solutions across Azure, Databricks, and on-premise environments.</p></div>
+          <article class="timeline-item">
+            <div class="date">Jun 2024 — Present</div>
+            <div>
+              <h3>Digital Focus Topic Lead — AI & Digital Assistants</h3>
+              <p class="organization">Siemens Healthineers</p>
+              <p>Lead AI strategy, enterprise architecture, roadmap, governance, and adoption for Customer Services. Guide cross-functional teams delivering agentic AI, LLM, multimodal, semantic, and digital-assistant solutions.</p>
+              <div class="tags"><span>AI strategy</span><span>Agentic AI</span><span>Enterprise architecture</span><span>Responsible AI</span></div>
+            </div>
           </article>
-          <article>
-            <div class="timeline-meta">Oct 2022 — May 2024</div>
-            <div><h3>Senior Data Scientist & Product Owner</h3><p class="org">Siemens Healthineers</p><p>Designed and deployed production machine-learning systems for near-real-time industrial machine data, operational intelligence, predictive analytics, monitoring, and automated ticketing.</p></div>
+
+          <article class="timeline-item">
+            <div class="date">Oct 2022 — May 2024</div>
+            <div>
+              <h3>Senior Data Scientist & Product Owner</h3>
+              <p class="organization">Siemens Healthineers</p>
+              <p>Designed and deployed production machine-learning systems for near-real-time medical-device and operational data, including monitoring, predictive analytics, and automated service-ticket workflows.</p>
+              <div class="tags"><span>Product ownership</span><span>Production ML</span><span>IoT analytics</span></div>
+            </div>
           </article>
-          <article>
-            <div class="timeline-meta">Oct 2018 — Sep 2022</div>
-            <div><h3>Data Scientist & Product Owner</h3><p class="org">Siemens Healthineers · Part-time during Ph.D.</p><p>Developed explainable machine-learning solutions using IoT, enterprise, and product-lifecycle data. Co-invented a U.S. patent for AI-based customer-satisfaction prediction.</p></div>
+
+          <article class="timeline-item">
+            <div class="date">Oct 2018 — Sep 2022</div>
+            <div>
+              <h3>Data Scientist & Product Owner</h3>
+              <p class="organization">Siemens Healthineers · Part-time during Ph.D.</p>
+              <p>Developed explainable ML solutions using IoT, enterprise, and product-lifecycle data. Co-invented a U.S. patent for AI-based customer-satisfaction prediction for medical devices.</p>
+              <div class="tags"><span>Explainable AI</span><span>Enterprise data</span><span>Patent</span></div>
+            </div>
           </article>
-          <article>
-            <div class="timeline-meta">Mar 2024 — Present</div>
-            <div><h3>Freelance AI Engineer</h3><p class="org">Independent</p><p>Build LLM applications, agentic workflows, machine-learning pipelines, and production AI architectures for startups.</p></div>
+
+          <article class="timeline-item">
+            <div class="date">Mar 2024 — Present</div>
+            <div>
+              <h3>Freelance AI Engineer</h3>
+              <p class="organization">Independent</p>
+              <p>Build LLM applications, agentic workflows, ML pipelines, and production AI architectures for startups.</p>
+            </div>
           </article>
-          <article>
-            <div class="timeline-meta">2018 — Present</div>
-            <div><h3>Doctoral & Postdoctoral Researcher</h3><p class="org">FAU Erlangen–Nürnberg</p><p>Research machine learning for healthcare and enterprise applications, supervise Master's and Ph.D. students, and collaborate internationally.</p></div>
+
+          <article class="timeline-item">
+            <div class="date">2018 — Present</div>
+            <div>
+              <h3>Doctoral & Postdoctoral Researcher</h3>
+              <p class="organization">FAU Erlangen–Nürnberg</p>
+              <p>Conduct research in machine learning for healthcare and enterprise applications, supervise Master's and Ph.D. students, and contribute to international collaborations.</p>
+            </div>
           </article>
         </div>
       </div>
     </section>
 
     <section class="section" id="research">
-      <div class="container narrow two-col">
+      <div class="shell content-width split">
         <div>
-          <p class="eyebrow">Research</p>
+          <p class="kicker">Research</p>
           <h2>Machine learning grounded in real-world problems</h2>
-          <p>My research spans robust and explainable machine learning, probabilistic modelling, time-series analysis, clinical data analytics, and industrial AI.</p>
-          <ul class="clean-list">
-            <li>Postdoctoral research and supervision at FAU</li>
-            <li>Visiting research at the University of California, Irvine</li>
-            <li>Clinical ML and ECG analysis at the Frankel Cardiovascular Center, University of Michigan</li>
-            <li>Reviewer for NeurIPS, IJCAI, ECML, and IEEE BHI</li>
+          <p>My research connects methodological ML work with clinical and industrial applications.</p>
+          <ul class="feature-list">
+            <li><strong>Robust & explainable ML</strong><span>Distribution shift, adversarial robustness, interpretable decision support.</span></li>
+            <li><strong>Healthcare AI</strong><span>Clinical data, ECG analysis, wearable sensing, and medical devices.</span></li>
+            <li><strong>Probabilistic modelling</strong><span>Irregular, mixed-type and multimodal time-series data.</span></li>
+            <li><strong>Research leadership</strong><span>Student supervision, peer review, and international collaboration.</span></li>
           </ul>
         </div>
-        <div class="skill-panel">
+
+        <aside class="competency-card">
           <h3>Core competencies</h3>
-          <p><strong>Strategy & Leadership</strong><br>AI strategy, enterprise architecture, technical leadership, product ownership, AI governance, stakeholder management, technical program leadership.</p>
-          <p><strong>AI & Machine Learning</strong><br>Agentic AI, LLMs, RAG, knowledge graphs, ontologies, multimodal AI, NLP, explainable AI, probabilistic ML, time series.</p>
-          <p><strong>Engineering</strong><br>Python, PyTorch, TensorFlow, Azure, Databricks, MLOps, SQL, Git, Linux, cloud and on-premise infrastructure.</p>
-          <p><strong>Domains</strong><br>Healthcare AI, medical devices, customer-service AI, IoT analytics, process mining, clinical data analytics.</p>
-        </div>
+          <div class="competency-group">
+            <h4>Strategy & leadership</h4>
+            <p>AI strategy · Enterprise architecture · Technical leadership · Product ownership · AI governance · Stakeholder management · Technical program leadership</p>
+          </div>
+          <div class="competency-group">
+            <h4>AI & machine learning</h4>
+            <p>Agentic AI · LLMs · RAG · Knowledge graphs · Ontologies · Multimodal AI · NLP · Explainable AI · Probabilistic ML · Time series</p>
+          </div>
+          <div class="competency-group">
+            <h4>Engineering</h4>
+            <p>Python · PyTorch · TensorFlow · Azure · Databricks · MLOps · SQL · Git · Linux · Cloud and on-premises infrastructure</p>
+          </div>
+          <div class="competency-group">
+            <h4>Domains</h4>
+            <p>Healthcare AI · Medical devices · Clinical analytics · Customer-service AI · IoT analytics · Process mining</p>
+          </div>
+        </aside>
       </div>
     </section>
 
-    <section class="section muted" id="publications">
-      <div class="container narrow">
-        <p class="eyebrow">Selected publications</p>
+    <section class="section tone" id="publications">
+      <div class="shell content-width">
+        <p class="kicker">Selected publications</p>
         <h2>Research highlights</h2>
-        <div class="publication-list">
-          <article><span class="venue">ICML 2022</span><h3>Improving Robustness against Real-World and Worst-Case Distribution Shifts through Decision Region Quantification</h3><p>Robust machine learning and distribution shift.</p></article>
-          <article><span class="venue">IEEE Access 2021</span><h3>System Design for a Data-Driven and Explainable Customer Sentiment Monitor Using IoT and Enterprise Data</h3><p>Explainable industrial AI with enterprise and IoT data.</p></article>
-          <article><span class="venue">JNRE 2019</span><h3>Development and Clinical Validation of Inertial Sensor-Based Gait-Clustering Methods in Parkinson's Disease</h3><p>Clinically validated healthcare AI and wearable-sensor analytics.</p></article>
+
+        <div class="publications">
+          <article class="publication">
+            <div class="venue">ICML 2022</div>
+            <div>
+              <h3>Improving Robustness against Real-World and Worst-Case Distribution Shifts through Decision Region Quantification</h3>
+              <p>Leo Schwinn, Leon Bungert, <strong>An Nguyen</strong>, René Raab, Falk Pulsmeyer, Doina Precup, Björn Eskofier, and Dario Zanca.</p>
+              <span class="topic">Robust machine learning · Distribution shift</span>
+            </div>
+          </article>
+
+          <article class="publication">
+            <div class="venue">IEEE Access 2021</div>
+            <div>
+              <h3>System Design for a Data-Driven and Explainable Customer Sentiment Monitor Using IoT and Enterprise Data</h3>
+              <p><strong>An Nguyen</strong>, Stefan Foerstel, Thomas Kittler, Andrey Kurzyukov, Leo Schwinn, Dario Zanca, Tobias Hipp, Sun Da Jun, Michael Schrapp, Eva Rothgang, and Bjoern Eskofier.</p>
+              <span class="topic">Explainable industrial AI · Enterprise and IoT data</span>
+            </div>
+          </article>
+
+          <article class="publication">
+            <div class="venue">JNRE 2019</div>
+            <div>
+              <h3>Development and Clinical Validation of Inertial Sensor-Based Gait-Clustering Methods in Parkinson's Disease</h3>
+              <p><strong>An Nguyen</strong>, Nils Roth, Nooshin Haji Ghassemi, Julius Hannink, Thomas Seel, Jochen Klucken, Heiko Gassner, and Bjoern Eskofier.</p>
+              <span class="topic">Clinical validation · Wearable sensing · Healthcare AI</span>
+            </div>
+          </article>
         </div>
-        <p class="section-link"><a href="#" data-placeholder="Google Scholar">View the full publication list on Google Scholar →</a></p>
+
+        <a class="text-link" href="https://scholar.google.com/citations?hl=en&user=c9iG6RUAAAAJ" target="_blank" rel="noreferrer">View all publications on Google Scholar →</a>
       </div>
     </section>
 
     <section class="section" id="leadership">
-      <div class="container narrow">
-        <p class="eyebrow">Leadership & recognition</p>
+      <div class="shell content-width">
+        <p class="kicker">Leadership & recognition</p>
         <h2>Building teams, communities, and research impact</h2>
-        <div class="cards">
-          <article><h3>Community leadership</h3><p>Co-founder of the Siemens Healthineers Dataneers Community and founder of the Data Science Community, reaching more than 300 members.</p></article>
-          <article><h3>Research leadership</h3><p>Supervisor of Master's and Ph.D. students, peer reviewer, and contributor to international research collaborations.</p></article>
-          <article><h3>Innovation</h3><p>Co-inventor of a U.S. patent for AI-based prediction of customer satisfaction with medical devices.</p></article>
-          <article><h3>Awards</h3><p>Outstanding Master's Degree Award (VDI), Fulbright Travel Grant, Rosa Luxemburg Foundation Scholarship, and TU Berlin Study Award.</p></article>
+        <div class="card-grid">
+          <article class="card">
+            <span class="card-number">01</span>
+            <h3>Community leadership</h3>
+            <p>Co-founder of the Siemens Healthineers Dataneers Community and founder of a Data Science Community reaching more than 300 members.</p>
+          </article>
+          <article class="card">
+            <span class="card-number">02</span>
+            <h3>Research leadership</h3>
+            <p>Supervisor of Master's and Ph.D. students, reviewer for NeurIPS, IJCAI, ECML, and IEEE BHI, and contributor to international collaborations.</p>
+          </article>
+          <article class="card">
+            <span class="card-number">03</span>
+            <h3>Innovation</h3>
+            <p>Co-inventor of a U.S. patent for AI-based prediction of customer satisfaction with medical devices.</p>
+          </article>
+          <article class="card">
+            <span class="card-number">04</span>
+            <h3>Awards</h3>
+            <p>Outstanding Master's Degree Award (VDI), Fulbright Travel Grant, Rosa Luxemburg Foundation Scholarship, and TU Berlin Study Award.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section tone" id="education">
+      <div class="shell content-width">
+        <p class="kicker">Education</p>
+        <h2>Academic background</h2>
+        <div class="education-grid">
+          <article><span>Dr.-Ing.</span><h3>Computer Science</h3><p>FAU Erlangen–Nürnberg · Magna Cum Laude</p></article>
+          <article><span>M.Sc.</span><h3>Electrical Engineering</h3><p>Technical University of Berlin · Grade 1.0</p></article>
+          <article><span>M.Sc.Eng.</span><h3>Electrical & Computer Engineering</h3><p>University of Michigan · GPA 4.0/4.0</p></article>
         </div>
       </div>
     </section>
 
     <section class="section contact" id="contact">
-      <div class="container narrow">
-        <p class="eyebrow">Contact</p>
-        <h2>Let's connect.</h2>
-        <p>For AI leadership, technical advisory, research collaboration, or freelance engineering inquiries:</p>
-        <a class="button" href="mailto:an.nguyen@live.de">an.nguyen@live.de</a>
+      <div class="shell content-width contact-inner">
+        <div>
+          <p class="kicker">Contact</p>
+          <h2>Let's build useful, trustworthy AI.</h2>
+          <p>For AI leadership, technical advisory, research collaboration, or freelance engineering inquiries.</p>
+        </div>
+        <a class="button primary" href="mailto:an.nguyen@live.de">an.nguyen@live.de</a>
       </div>
     </section>
   </main>
 
-  <footer><div class="container"><span>© <span id="year"></span> An Nguyen</span><span>Built as a simple static website.</span></div></footer>
+  <footer>
+    <div class="shell footer-inner">
+      <span>© <span id="year"></span> An Nguyen</span>
+      <span>Built for GitHub Pages.</span>
+    </div>
+  </footer>
+
   <script src="script.js"></script>
 </body>
 </html>

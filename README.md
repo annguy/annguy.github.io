@@ -1,18 +1,40 @@
 # An Nguyen — Personal Website
 
-A simple responsive static personal website inspired by academic profile sites such as schwinnl.github.io.
+This is a static personal website for GitHub Pages.
 
-## Customize
+## Replace your current site
 
-1. Open `index.html`.
-2. Replace the `#` placeholders for LinkedIn, GitHub, and Google Scholar with your real URLs.
-3. Replace the initials avatar with a photo if desired. You can add `assets/profile.jpg` and change the avatar element to an image.
-4. Edit any wording, dates, publications, or contact details directly in `index.html`.
+1. Download and unzip this package.
+2. In the `annguy.github.io` repository, replace:
+   - `index.html`
+   - `styles.css`
+   - `script.js`
+3. Keep `An_Nguyen_resume_July_2026.pdf` in the repository root.
+4. Commit the changes to `main`.
+5. GitHub Pages will redeploy automatically.
 
-## Publish with GitHub Pages
+## Optional profile photo
 
-1. Create a GitHub repository named `<your-username>.github.io`.
-2. Upload all files from this folder to the repository root.
-3. In GitHub, open Settings → Pages and deploy from the `main` branch.
+Add a square photo as `assets/profile.jpg`, then replace:
 
-The site uses only HTML, CSS, and a small amount of JavaScript. No build process is required.
+```html
+<div class="portrait" aria-hidden="true">AN</div>
+```
+
+with:
+
+```html
+<img class="portrait" src="assets/profile.jpg" alt="Portrait of An Nguyen">
+```
+
+## Verify publishing
+
+Open repository **Settings → Pages** and confirm:
+
+- Source: Deploy from a branch
+- Branch: `main`
+- Folder: `/ (root)`
+
+The site should be available at:
+
+`https://annguy.github.io`
