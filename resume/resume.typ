@@ -112,7 +112,7 @@
 
 #section("Professional Summary")
 
-I bridge the gap between ML research and enterprise production — combining a Ph.D. in Computer Science (Applied Machine Learning in Healthcare and Industry), 10+ peer-reviewed publications, and 10+ years in AI/ML across research and industry (8+ years professional) with a track record of deploying AI at scale. At Siemens Healthineers I define AI strategy, architecture, governance, and enterprise adoption of agentic AI, LLMs, knowledge graphs, and multimodal AI for Customer Services globally. I turn research ideas into shipped products, build global AI communities and teams, and publish in top-tier venues — bringing both scientific rigor and pragmatic delivery to every role.
+I connect AI research with enterprise delivery — bringing a Ph.D. in Computer Science (Machine Learning), 10+ peer-reviewed publications, and 10+ years of experience across research and industry to build and scale AI products. At Siemens Healthineers I lead AI strategy, architecture, governance, and adoption for agentic AI, LLMs, knowledge graphs, and multimodal AI in Customer Services. I translate research into shipped systems, build high-impact teams and communities, and bring scientific rigor to practical, production-focused AI.
 
 #section("Core Competencies")
 
@@ -148,11 +148,11 @@ I bridge the gap between ML research and enterprise production — combining a P
   "Siemens Healthineers",
   "Jun 2024 – Present",
   [
-    - Lead AI strategy, architecture, and roadmap for Customer Services.
-    - Lead global cross-functional initiatives delivering agentic AI, LLM, multimodal AI, and digital-assistant solutions.
-    - Design reusable AI platforms using Azure, Databricks, knowledge graphs, semantic technologies, and on-prem infrastructure.
-    - Define governance for trustworthy AI, evaluation, explainability, and responsible AI.
-    - Partner with executives, architects, and engineering teams to translate AI research into enterprise products.
+    - Lead AI strategy, architecture, and roadmap for Customer Services across a global enterprise environment.
+    - Drive cross-functional delivery of agentic AI, LLM, multimodal AI, and digital-assistant solutions.
+    - Design reusable AI platforms on Azure, Databricks, knowledge graphs, semantic technologies, and on-prem infrastructure.
+    - Define governance for trustworthy AI, evaluation, explainability, and responsible deployment.
+    - Translate research into enterprise products through strong collaboration with executives, architects, research and engineering teams.
   ],
 )
 
@@ -161,7 +161,7 @@ I bridge the gap between ML research and enterprise production — combining a P
   "Independent",
   "Mar 2024 – Present",
   [
-    - Build LLM, agentic-AI, and production-ML solutions for startups.
+    - Deliver LLM, agentic-AI, and production-ML solutions for startups and innovation-focused teams.
   ],
 )
 
@@ -170,9 +170,9 @@ I bridge the gap between ML research and enterprise production — combining a P
   "Siemens Healthineers",
   "Oct 2022 – May 2024",
   [
-    - Designed and deployed production ML systems processing near-real-time industrial machine data.
-    - Built operational-intelligence platforms with automated ticketing, monitoring, and predictive analytics.
-    - Co-organized an enterprise AI innovation challenge and hackathon.
+    - Designed and deployed production ML systems for near-real-time industrial machine data.
+    - Built operational-intelligence platforms with monitoring, predictive analytics, and automated ticketing workflows.
+    - Co-led an enterprise AI innovation challenge and hackathon to accelerate adoption of new AI ideas.
   ],
 )
 
@@ -182,7 +182,7 @@ I bridge the gap between ML research and enterprise production — combining a P
   "Oct 2018 – Sep 2022",
   [
     - Developed production ML solutions using IoT, enterprise, and PLM data.
-    - Built explainable-AI solutions for customer-sentiment prediction and operational analytics.
+    - Built explainable-AI methods for customer-sentiment prediction and operational analytics.
     - Co-invented a U.S. patent for AI-driven customer-satisfaction prediction.
   ],
 )
