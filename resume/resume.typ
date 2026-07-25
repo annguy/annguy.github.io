@@ -112,7 +112,7 @@
 
 #section("Professional Summary")
 
-AI technical leader with 8+ years of professional machine-learning experience across industry and academia, and 10+ years including research appointments during graduate studies. Currently leading AI & Digital Assistants for Siemens Healthineers Customer Services, defining AI strategy, architecture, governance, and enterprise adoption of agentic AI, large language models, knowledge graphs, multimodal AI, and digital assistants. Ph.D. in Computer Science with an active postdoctoral affiliation, combining research excellence with hands-on delivery of production AI systems.
+I bridge the gap between ML research and enterprise production — combining a Ph.D. in Computer Science (Applied Machine Learning in Healthcare and Industry), 10+ peer-reviewed publications, and 10+ years in AI/ML across research and industry (8+ years professional) with a track record of deploying AI at scale. At Siemens Healthineers I define AI strategy, architecture, governance, and enterprise adoption of agentic AI, LLMs, knowledge graphs, and multimodal AI for Customer Services globally. I turn research ideas into shipped products, build global AI communities and teams, and publish in top-tier venues — bringing both scientific rigor and pragmatic delivery to every role.
 
 #section("Core Competencies")
 
@@ -226,12 +226,9 @@ AI technical leader with 8+ years of professional machine-learning experience ac
   [ML and signal-processing algorithms for atrial-fibrillation detection from ECG data.],
 )
 
-#compact-role(
-  "Peer Review",
-  "NeurIPS · IJCAI · ECML · IEEE BHI",
-  "",
-  [],
-)
+#v(1pt)
+#text(fill: muted)[*Peer review:* NeurIPS · IJCAI · ECML · IEEE BHI]
+#v(3pt)
 
 #section("Education")
 
@@ -276,13 +273,19 @@ AI technical leader with 8+ years of professional machine-learning experience ac
   ],
 )
 
-#section("Selected Research, Leadership & Awards")
+#section("Selected Publications (Full list on Google Scholar)")
 
-- 13 peer-reviewed publications in machine learning and healthcare AI, including ICML, UAI, IJCNN, IEEE Access, and the Journal of NeuroEngineering and Rehabilitation.
-- U.S. Patent: AI-based Customer Satisfaction Prediction for Medical Devices.
-- Co-founder, Siemens Healthineers Dataneers Community (300+ members); Founder, Data Science Community (300+ members).
-- Reviewer for NeurIPS, IJCAI, and ECML.
-- Outstanding Master's Degree Award (VDI), Fulbright Travel Grant, and Rosa Luxemburg Foundation Scholarship.
+- Schwinn et al. incl. *An Nguyen* (co-author). "Improving Robustness against Real-World and Worst-Case Distribution Shifts through Decision Region Quantification." _ICML 2022._
+- *#text(fill: rgb("#172033"))[An Nguyen]* et al. (first author). "System Design for a Data-Driven and Explainable Customer Sentiment Monitor Using IoT and Enterprise Data." _IEEE Access, 2021._
+- *#text(fill: rgb("#172033"))[An Nguyen]* et al. (first author). "Development and Clinical Validation of Inertial Sensor-Based Gait-Clustering Methods in Parkinson's Disease." _JNRE, 2019._
+
+#section("Awards, Communities & Skills")
+
+- *Patent:* AI-based Customer Satisfaction Prediction for Medical Devices (US App. 17/375,306).
+- *Awards:* Outstanding Master's Degree Award — VDI Berlin-Brandenburg, best engineering graduates in the region (2019) · Fulbright Travel Grant — U.S. government merit award for graduate study at the University of Michigan (2016) · Rosa Luxemburg Foundation Scholarship — competitive full study scholarship by the German Federal Ministry of Education for gifted students (2011–2018).
+- *Communities:* Co-founded company internal Data Science Community (500+ members) 
+- *Languages:* German (native) · English (fluent) · Swedish (proficient) · Vietnamese (proficient) · French (beginner).
+- *Engineering:* Python · PyTorch · TensorFlow · Azure · Databricks · LangChain · LangGraph · MLflow · SQL · Git · Linux.
 
 #v(5pt)
 #line(length: 100%, stroke: 0.6pt + rule-color)
