@@ -97,7 +97,7 @@
   #text(size: 21pt, weight: "bold")[An Nguyen, Dr.-Ing.]
   #v(2pt)
   #text(size: 10pt, weight: "semibold", fill: accent)[
-    Digital Focus Topic Lead AI & Digital Assistants · Postdoctoral Researcher · AI Freelancer
+    Digital Focus Topic Lead AI & Digital Assistants · Enterprise AI Architect · Postdoctoral Researcher · Freelance AI Engineer & Consultant
   ]
   #v(2pt)
   #text(size: 8.4pt, fill: muted)[
@@ -112,22 +112,21 @@
 
 #section("Professional Summary")
 
-I connect AI research with enterprise delivery — bringing a Ph.D. in Computer Science (Machine Learning), 10+ peer-reviewed publications, and 10+ years of experience across research and industry to build and scale AI products. At Siemens Healthineers I lead AI strategy, architecture, governance, and adoption for agentic AI, LLMs, knowledge graphs, and multimodal AI in Customer Services. I translate research into shipped systems, build high-impact teams and communities, and bring scientific rigor to practical, production-focused AI.
-
+I bridge cutting-edge AI research with enterprise-scale AI delivery. I hold a Ph.D. in Computer Science (Machine Learning), authored 10+ peer-reviewed publications, and bring 10+ years of experience building production AI systems across research and industry. At Siemens Healthineers I define enterprise AI strategy, architecture, governance, and platform capabilities for agentic AI, LLMs, knowledge graphs, and multimodal AI. I partner with executives, architects, and engineering teams to translate AI innovation into scalable enterprise platforms and products deployed in regulated healthcare environments.
 #section("Core Competencies")
 
 #competency(
-  "AI Strategy & Leadership",
-  [AI Strategy · Enterprise AI Architecture · Technical Leadership · Product Ownership · AI Governance · Responsible AI · Stakeholder Management · Cross-functional Leadership · AI Roadmapping · Technology Strategy · Innovation Management],
+  "Enterprise AI Strategy & Architecture",
+  [AI Strategy · AI Architecture · Technical Leadership · Product Ownership · AI Governance · Responsible AI · Stakeholder Management · Cross-functional Leadership · AI Roadmapping · Technology Strategy · Innovation Management],
 )
 
 #competency(
-  "Machine Learning & AI",
+  "Applied AI",
   [Agentic AI · Large Language Models (LLMs) · Retrieval-Augmented Generation (RAG) · Knowledge Graphs · Ontologies · Multimodal AI · NLP · Explainable AI · Probabilistic Machine Learning · Time Series Analysis · Predictive Analytics],
 )
 
 #competency(
-  "Engineering & MLOps",
+  "AI Engineering",
   [Python · PyTorch · TensorFlow · Azure · Databricks · MLOps · SQL · Git · Linux · Cloud & On-Prem Infrastructure · ML System Design],
 )
 
@@ -137,7 +136,7 @@ I connect AI research with enterprise delivery — bringing a Ph.D. in Computer 
 )
 
 #competency(
-  "Research & Healthcare",
+  "Healthcare & Research",
   [Healthcare AI · Medical Devices · Clinical Data Analytics · IoT Analytics · Process Mining · Scientific Research · Experimental Design · Technology Transfer · Research Supervision · Mentoring],
 )
 
@@ -148,20 +147,23 @@ I connect AI research with enterprise delivery — bringing a Ph.D. in Computer 
   "Siemens Healthineers",
   "Jun 2024 – Present",
   [
-    - Lead AI strategy, architecture, and roadmap for Customer Services across a global enterprise environment.
-    - Drive cross-functional delivery of agentic AI, LLM, multimodal AI, and digital-assistant solutions.
-    - Design reusable AI platforms on Azure, Databricks, knowledge graphs, semantic technologies, and on-prem infrastructure.
-    - Define governance for trustworthy AI, evaluation, explainability, and responsible deployment.
-    - Translate research into enterprise products through strong collaboration with executives, architects, research and engineering teams.
+    - Define enterprise AI strategy, AI reference architecture, and technology roadmap for AI & Digital Assistants across Customer Services.
+    - Design reusable enterprise AI capabilities including agentic AI, LLMs, knowledge graphs, multimodal AI, Azure, Databricks, and hybrid cloud infrastructure.
+    - Establish AI governance, evaluation frameworks, Responsible AI principles, and technical standards for production AI systems.
+    - Lead enterprise-wide AI initiatives across product, engineering, research, and enterprise architecture.
+    - Influence enterprise-wide AI platform decisions including build-versus-buy evaluations, reusable platform capabilities, and long-term AI architecture.
+    - Drive executive alignment and technology adoption by translating AI research into scalable enterprise products for regulated healthcare.
+    - Mentor engineers and AI practitioners while fostering internal AI communities and sharing best practices across teams.
   ],
 )
 
 #role(
-  "Freelance AI Engineer",
+  "Freelance AI Engineer & Consultant",
   "Independent",
   "Mar 2024 – Present",
   [
-    - Deliver LLM, agentic-AI, and production-ML solutions for startups and innovation-focused teams.
+    - Advise startups on enterprise AI architecture, agentic AI, LLM applications, RAG systems, and production deployment.
+    - Prototype and deploy production-ready AI systems, from architecture to implementation.
   ],
 )
 
@@ -170,11 +172,13 @@ I connect AI research with enterprise delivery — bringing a Ph.D. in Computer 
   "Siemens Healthineers",
   "Oct 2022 – May 2024",
   [
-    - Designed and deployed production ML systems for near-real-time industrial machine data.
-    - Built operational-intelligence platforms with monitoring, predictive analytics, and automated ticketing workflows.
-    - Co-led an enterprise AI innovation challenge and hackathon to accelerate adoption of new AI ideas.
+    - Led design and deployment of production ML systems for near-real-time industrial machine monitoring.
+    - Designed operational AI platforms integrating predictive analytics, monitoring, and automated service workflows.
+    - Co-led enterprise AI innovation initiatives and hackathons, accelerating adoption of modern AI technologies across business units.
   ],
 )
+
+#pagebreak()
 
 #role(
   "Data Scientist & Product Owner (part-time during Ph.D.)",
@@ -186,8 +190,6 @@ I connect AI research with enterprise delivery — bringing a Ph.D. in Computer 
     - Co-invented a U.S. patent for AI-driven customer-satisfaction prediction.
   ],
 )
-
-#pagebreak()
 
 #section("Academic, Research & Teaching")
 
@@ -202,7 +204,7 @@ I connect AI research with enterprise delivery — bringing a Ph.D. in Computer 
   "Research Group Lead (commissarial) · Course Creator & Instructor",
   "FAU Erlangen–Nürnberg",
   "2018 – 2022",
-  [Led Applied ML Workgroup (PhD students, industry projects, 2019–2020). Created and taught _ML & Data Analytics for Industry 4.0 Seminar_ (2019–2022), _ML for Time Series Projects_ (2020–2022), and _Project ML & Data Analytics_ (2020-2022). Supervised 20+ Master's theses, projects, and internships.],
+  [Led Applied ML Workgroup (PhD students, industry projects, 2019–2020). Created and taught _ML & Data Analytics for Industry 4.0 Seminar_ (2019–2022), _ML for Time Series Projects_ (2020–2022), and _Project ML & Data Analytics_ (2020-2022). Supervised 20+ Master's theses, projects, and internships. A collaborative mentor and connector between research, teaching, and industry practice.],
 )
 
 #compact-role(
@@ -290,6 +292,4 @@ I connect AI research with enterprise delivery — bringing a Ph.D. in Computer 
 #v(5pt)
 #line(length: 100%, stroke: 0.6pt + rule-color)
 #v(3pt)
-#align(center)[
-  #text(fill: muted, size: 7.8pt)[Professional references available upon request.]
-]
+
