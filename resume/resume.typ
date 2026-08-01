@@ -210,8 +210,8 @@ I bridge cutting-edge AI research with enterprise-scale AI delivery. I hold a Ph
 #compact-role(
   "Doctoral Researcher",
   "University of Erlangen–Nürnberg (FAU)",
-  "2018 – 2023",
-  [Research in machine learning for healthcare and business analytics (magna cum laude).],
+  "2018 – 2022",
+  [Researched machine learning for healthcare and business analytics, with applications in gait analysis, business process management, and customer service AI. Industrial collaboration with Siemens Healthineers. Advisor: Prof. Dr. Björn Eskofier.],
 )
 
 #compact-role(
